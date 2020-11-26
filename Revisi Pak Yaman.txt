@@ -1,0 +1,73 @@
+18 April 2019
+
+- Tambah Chart Agama, Pendidikan, Pekerjaan Penduduk di Dashboard
+
+- Hapus perangkat desa, di tabel usernya tidak terhapus [ok]
+- Edit Data Perangkat Desa password tampil sha1 (decrypt) [ok]
+- Update Perangkat Desa [ok]
+- Tambah Status/Blokir User [ok]
+
+- Update data penduduk [ok]
+
+- RW
+ketika pilih nama ketua rw baru, ketua rw lama dan nomor rw hilang [ok]
+edit rw belom dicoba [ok]
+
+- RT
+nm_rt input apapun hasilnya 1 terus [ok]
+id_rw tidak masuk [ok]
+edit rt belom dicoba [ok]
+
+- Surat
+bulan dan tahun otomatis [ok]
+biar no surat reset ke 01 itu gimana ? [ok]
+
+23 April 2019
+
+edit golongan darah null [ok]
+nik unik, database + coding
+nik kosong = null [ok]
+nomor rt rw dan ketua rt rw di pisah [ok]
+
+
+bikin tabel jenis surat
+isi : kode, nama, ket
+
+bikin table
+no surat terakhir
+isi : kd_jenis surat, tahun, bulan, nomor terakhir
+
+
+Kawin, Tidak Kawin, Cerai Hidup, Cerai Mati [ok]
+
+edit data ketua rw, nomor rw jangan pake select box, ganti input text + disable input
+edit data ketua rw, nama penduduk [id] hilang
+
+pemilihan surat berdasar select box
+tambahkan jenis surat
+
+30 April 2019
+
+get id rw, penduduk rw yg sama get idrt/idrw, pakai IN (Select*id_rt from rt where penduduk.id_rt=id.rtpenduduk
+tambah tabel no akhirsurat
+tambah captcha
+field tambahan jenis surat
+field_surat tabel baru
+
+14 April 2019
+Pilih ketua RW berdasarkan warga yg ada di RW tsb
+
+
+16 April 2019
+hapus ketua rw lama apabila telah menambah ketua rw baru
+
+18 April 2019
+ketika tambah kepala desa/sekretaris desa, hapus kepala desa/sekretaris desa lama
+tambah dan hapus field surat, di aksi : header('location:../../media.php?module='.$module);
+nomor surat, no,bulan,tahun dipisah, alasan : supaya mudah search data bila data sudah banyak
+tampilin ketua rt + rw di surat + no rt rw juga
+isi surat tidak bold
+
+25 Mei 2019
+Benerin Statistik Kependudukan
+Laporan Surat Penduduk
